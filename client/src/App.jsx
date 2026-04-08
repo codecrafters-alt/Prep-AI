@@ -11,7 +11,7 @@ import InterviewReport from "./pages/InterviewReport.jsx";
 import InterviewHistory from "./pages/InterviewHistory.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import CareerCopilot from "./pages/CareerCopilot.jsx";
-export const ServerUrl = "http://localhost:3008";
+export const ServerUrl = "https://prep-ai-o7jq.onrender.com";
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
