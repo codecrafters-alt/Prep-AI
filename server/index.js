@@ -28,7 +28,7 @@ app.disable("x-powered-by"); //Prevents attackers from knowing i am using Expres
 //create connectivity btw client and server
 app.use(
   cors({
-    origin: "http://localhost:5173", //if request is coming from this origin then only allow it to access server accept request from this origin url
+    origin: "https://prep-ai-client.onrender.com", //if request is coming from this origin then only allow it to access server 
     credentials: true,
   }),
 );
