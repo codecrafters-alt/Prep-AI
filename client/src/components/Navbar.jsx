@@ -61,13 +61,16 @@ function Navbar({ openAuth }) {
                 }
                 navigate("/career-copilot");
               }}
-              className="flex items-center gap-2 px-5 py-2 rounded-full 
+              className=" text-sm flex items-center gap-2 px-5 py-2 rounded-full 
 bg-gradient-to-tr from-white/20 via-transparent to-transparent backdrop-blur-md border border-white/20 
 hover:bg-white/10 transition-all duration-300"
             >
-              <GiBrain size={20} className="text-purple-400 text-lg" />
+              <GiBrain
+                size={20}
+                className="w-4 h-4 md:w-5 md:h-5 text-purple-400 text-lg"
+              />
               <span
-                className="bg-gradient-to-r from-gray-200 via-purple-300 to-purple-400 
+                className="hidden md:inline bg-gradient-to-r from-gray-200 via-purple-300 to-purple-400 
   bg-clip-text text-transparent font-medium"
               >
                 Career Copilot

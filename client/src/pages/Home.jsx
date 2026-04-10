@@ -76,7 +76,7 @@ function Home() {
               <div className="absolute w-72 h-72 bg-purple-500/20 blur-[120px] rounded-full left-1/2 -translate-x-1/2 top-10"></div>
 
               {/* glass box */}
-              <div className="inline-block p-[1px] rounded-2xl bg-gradient-to-r from-purple-700/10 via-white/20 to-emerald-500/30">
+              <div className="w-full md:w-[85%] inline-block p-[1px] rounded-2xl bg-gradient-to-r from-purple-700/10 via-white/20 to-emerald-500/30">
                 <div className="bg-white/5 backdrop-blur-2xl border border-white/10 rounded-2xl px-10 py-12 shadow-[0_0_40px_rgba(139,92,246,0.15)]">
                   <motion.h2
                     initial={{ opacity: 0, y: 30 }}
@@ -88,9 +88,9 @@ bg-clip-text text-transparent  max-w-4xl mx-auto"
                     Shape Your Future with AI{" "}
                     <span className="relative inline-block mt-1.5">
                       <span
-                        className="mt-3 inline-block px-10 py-4 rounded-full 
+                        className="text-2xl md:text-6xl mt-3 inline-block px-10 py-4 rounded-full 
 bg-emerald-500/20 backdrop-blur-lg border border-white/20 
-text-emerald-400/80 text-6xl font-semibold
+text-emerald-400/80  font-semibold
 shadow-[0_0_25px_rgba(16,185,129,0.4)] 
 hover:scale-105 transition-all duration-300"
                       >
@@ -105,7 +105,10 @@ hover:scale-105 transition-all duration-300"
                     transition={{ duration: 0.8 }}
                     className="text-gray-200 mt-6 max-w-2xl mx-auto text-lg"
                   >
-                   Simulate real interview experiences, analyze and enhance your resume, discover the best-fit roles, and receive personalized AI-driven insights to guide your career journey — all powered by AI.
+                    Simulate real interview experiences, analyze and enhance
+                    your resume, discover the best-fit roles, and receive
+                    personalized AI-driven insights to guide your career journey
+                    — all powered by AI.
                   </motion.p>
 
                   <div className="flex flex-wrap justify-center gap-6 mt-10">
